@@ -87,8 +87,8 @@
 
   .cover {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
   }
 
