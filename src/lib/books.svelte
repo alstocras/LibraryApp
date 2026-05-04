@@ -73,7 +73,7 @@
 <style>
   .book {
     font-family: "Georgia", serif;
-    background-color: #1a2a3a; /* Dark blue to match your screenshot */
+    background-color: #1a2a3a;
     color: white;
     border: 1px solid #334e68;
     padding: 24px;
