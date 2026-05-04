@@ -72,7 +72,13 @@
 
 <style>
   .book {
-    font-family: "Georgia", serif;
+    /* Charter is beautiful, Merriweather is a great backup */
+    font-family: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+
+    /* This CSS property is a 'cheat code' to force numbers to line up 
+    if the font supports it (works for many modern serifs) */
+    font-variant-numeric: lining-nums;
+
     background-color: #1a2a3a;
     color: white;
     border: 1px solid #334e68;
