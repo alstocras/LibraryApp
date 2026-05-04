@@ -22,7 +22,7 @@
     outline: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
-    font-family: "Geom", cursive;
+    font-family: "Geom", sans-serif;
   }
 
   input:hover {
