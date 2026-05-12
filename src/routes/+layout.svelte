@@ -11,7 +11,7 @@
 	class="h-0.125 hover: flex flex-row items-center gap-6 bg-primary p-4 font-navbar text-navbar text-accent"
 >
 	<a class="hover:underline" href="/">home</a>
-	<a class="hover:underline" href="/upload">upload books</a>
+	<a class="hover:underline" href="/login">log in</a>
 </header>
 
 <main
