@@ -8,10 +8,10 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <header
-	class="h-0.125 flex flex-row items-center gap-6 bg-primary p-4 font-navbar text-navbar text-accent"
+	class="h-0.125 hover: flex flex-row items-center gap-6 bg-primary p-4 font-navbar text-navbar text-accent"
 >
-	<a href="/">home</a>
-	<a href="/upload">upload books</a>
+	<a class="hover:underline" href="/">home</a>
+	<a class="hover:underline" href="/upload">upload books</a>
 </header>
 
 <main
