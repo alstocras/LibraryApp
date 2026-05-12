@@ -1,5 +1,5 @@
 <script lang="ts">
-	let username: string = $state('');
+	import { username } from '$lib/store.svelte';
 </script>
 
 <h1 class="text-3xl">Log in</h1>
@@ -17,13 +17,14 @@
 		rounded-lg
 		border-2
 		border-primary/20
-		p-3
-		text-input
+		bg-input
+    p-3
+		text-accent
 		transition-all
 		outline-none
 		focus:border-primary
 	"
-	bind:value={username}
+	bind:value={username.name}
 />
 <br />
-<p>Hello, {username}.</p>
+<p>Hello, {username.name}.</p>
