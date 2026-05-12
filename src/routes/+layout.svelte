@@ -19,3 +19,12 @@
 >
 	{@render children()}
 </main>
+
+<footer class="h-0.05 flex items-center bg-background font-normal text-normal text-secondary">
+	<p>
+		Contribute and see the code on our <a
+			class="text-input hover:underline"
+			href="https://github.com/alstocras/LibraryApp">GitHub</a
+		>.
+	</p>
+</footer>
