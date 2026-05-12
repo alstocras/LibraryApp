@@ -12,6 +12,7 @@
 >
 	<a class="hover:underline" href="/">home</a>
 	<a class="hover:underline" href="/login">log in</a>
+	<a class="hover:underline" href="/upload">upload books</a>
 </header>
 
 <main
