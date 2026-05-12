@@ -1,3 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+  --color-primary: #0033a0;
+  --color-secondary: #000f08;
+  --color-accent: #f4fff8;
+  --color-background: #8baaad;
+  --color-input: #508484;
+}
