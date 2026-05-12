@@ -7,6 +7,8 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<main class="flex min-h-screen flex-col items-center bg-background text-secondary">
+<main
+	class="flex min-h-screen flex-col items-center bg-background font-normal text-normal text-secondary"
+>
 	{@render children()}
 </main>

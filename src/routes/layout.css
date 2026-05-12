@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
@@ -8,4 +10,8 @@
   --color-accent: #f4fff8;
   --color-background: #8baaad;
   --color-input: #508484;
+  --font-navbar: "Geom", sans-serif;
+  --font-normal: "Lexend", sans-serif;
+  --text-navbar: 3em;
+  --text-normal: 1.5em;
 }
