@@ -1,42 +1,14 @@
-# sv
-
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.15.3 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography,forms" --install npm .
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# literary communism
+## readers of the world, unite!
+Ever wanted to read a book, but 
+## how to contribute
+always use PRs and use the following guidelines
+- `patch:` for small fixes
+- `feature:` for new features
+- `release:` for software-breaking changes
+### testing
+- make sure you have `npm` installed, and then navigate to the repo's root and run `npm run dev`. Then go to `localhost://5173` or wherever `npm` tells you to go to.
+### make your PRs small
+Please make them easy to review and commit small changes.
+## that's it!
+thanks for contributing!
