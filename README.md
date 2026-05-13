@@ -1,6 +1,6 @@
 # literary communism
 ## readers of the world, unite!
-Ever wanted to read a book, but 
+Ever wanted to read a book, but you did not have it? Or you had a book that you did not want to read? This website *solves* that problem! Enjoy the power to trade your — sorry, *our* — unwanted books for books you want! All completely for free.
 ## how to contribute
 always use PRs and use the following guidelines
 - `patch:` for small fixes
